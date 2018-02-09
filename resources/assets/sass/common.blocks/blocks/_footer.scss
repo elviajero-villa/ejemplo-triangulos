@@ -1,20 +1,28 @@
 .footer {
-	position: fixed;
-	bottom: 0;
-	width: 83.3333333333%;
-	padding: 5px 5vw;
-	left: 16.6666666667%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	p {
-		color: black;
-		margin-bottom: 0px;
-	}
-	ul {
-		margin-bottom: 0;
-		li {
-			display: inline-block;
-			margin-bottom: 0;
-		}
-	}
+	box-sizing:border-box;
+	padding-top:0px;
+	background: $brand-third;
+	margin-bottom:auto;
 }
+
+.btn-footer{
+	box-sizing:border-box;
+	color:white;
+	font-family:$font-family-secundary;
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:500;
+	padding:10px;
+	letter-spacing:.3px;
+
+}
+
+.btn-footer:hover{
+	text-decoration: none;
+	color:white;
+	font-weight:700;
+}
+

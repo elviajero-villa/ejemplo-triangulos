@@ -12,6 +12,8 @@
 @import "common.blocks/blocks/footer";
 @import "common.blocks/blocks/headers";
 @import "common.blocks/blocks/modals";
+@import "common.blocks/blocks/forms";
+@import "common.blocks/blocks/sidebar";
 
 @import "common.blocks/elements/image-background";
 @import "common.blocks/elements/center-height-width";
@@ -19,14 +21,24 @@
 @import "common.blocks/elements/button";
 @import "common.blocks/elements/title";
 @import "common.blocks/elements/extract";
+@import "common.blocks/elements/circles";
+@import "common.blocks/elements/boxtext-primary";
+@import "common.blocks/elements/boxtext-secundary";
+@import "common.blocks/elements/box-step";
+@import "common.blocks/elements/circle-images";
 @import "common.blocks/elements/logo";
 @import "common.blocks/elements/geometricFigures";
 @import "common.blocks/elements/blockquote";
 @import "common.blocks/elements/icons";
 @import "common.blocks/elements/list";
 @import "common.blocks/elements/line-multicolor";
+@import "common.blocks/elements/input";
+@import "common.blocks/elements/line-form";
+@import "common.blocks/elements/uploader";
+@import "common.blocks/elements/circle-dash";
 
 @import "common.blocks/modifier/container";
+@import "common.blocks/modifier/container-dash";
 @import "common.blocks/modifier/buttons";
 @import "common.blocks/modifier/extracts";
 @import "common.blocks/modifier/titles";
@@ -34,6 +46,8 @@
 @import "common.blocks/modifier/logo";
 @import "common.blocks/modifier/icons";
 @import "common.blocks/modifier/animations";
+@import "common.blocks/modifier/space-section";
+@import "common.blocks/modifier/line-title";
 
 @import "mobile.blocks/blocks/navigation";
 @import "mobile.blocks/blocks/container";

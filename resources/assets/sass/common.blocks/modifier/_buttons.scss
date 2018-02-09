@@ -1,17 +1,90 @@
+a:hover, a:visited, a:link, a:active{
+    text-decoration:none;
+}
+
+
 .btn-medium {
 	font-size: $font-size;
 }
 
-.btn-primary {
-	background: $brand-primary;
-	color: rgba(255,255,255,0.9);
-}
+
 .btn-secundary {
 	background: $brand-secundary;
 	color: rgba(255,255,255,0.9);
 }
 
 .btn-white {
+    text-decoration: none;
 	background: rgba(255,255,255,0.9);
 	color: $brand-secundary;
+}
+
+.btn-white:hover {
+    text-decoration: none;
+    background: rgba(255,255,255,0.9);
+    color: $brand-secundary;
+}
+.btn-invert{
+
+	text-decoration: none;
+    padding:5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: $font-family-secundary;
+    font-weight: 300;
+    font-size: $font-size;
+    color: $gray;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid $gray;
+}
+.btn-basic{
+	text-decoration: none;
+    padding:5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: $font-family-secundary;
+    font-weight: 300;
+    font-size: $font-size;
+    color: white;
+    background-color: $gray;
+    border-radius: 15px;
+    border: 1px solid $gray;
+}
+.btn-form{
+    text-decoration: none;
+    padding:5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: $font-family-secundary;
+    font-weight: 300;
+    font-size: $font-size;
+    color: white;
+    background-color: $brand-primary;
+    border-radius: 15px;
+    border: 1px solid $brand-primary;
+    position:relative;
+    left:35%;
+}
+
+.btn-check{
+    text-decoration: none;
+    padding:5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: $font-family-secundary;
+    font-weight: 300;
+    font-size: $font-size;
+    color: white;
+    background-color: $brand-primary;
+    border-radius: 15px;
+    border: 1px solid $brand-primary;
+    position:relative;
+    left:74%;
+}
+.btn-basic:hover{
+    text-decoration:none;
+	background: $gray-dark;
+	background-color: $gray-dark;
+	color: $white;
 }

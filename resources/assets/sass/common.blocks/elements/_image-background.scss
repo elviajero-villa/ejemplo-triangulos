@@ -2,4 +2,77 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width:500px;
+  height:300px;
+  position: absolute;
+  left:20%;
+  box-shadow: 0px 0px 5px 1px rgba($gray-light,0.75);
+  z-index:40;
+}
+
+
+.image-article {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:block;
+  width:600px;
+  height:400px;
+  position: relative;
+  box-shadow: 0px 0px 5px 1px rgba($gray-light,0.75);
+  margin-bottom: 20px;
+}
+.box-article{
+      width:80%;
+      height:auto;
+      position:relative;
+      left:20%;
+      top:40px;
+      display:block;
+      margin-top: 20px;
+      color: $gray;
+      font-weight: 100;
+      letter-spacing: 0.5px;
+    
+}
+
+.article-box{
+  box-sizing:border-box;
+  position:relative;
+  font-family:$font-family-secundary;
+  font-size: $font-size-slarge;
+  line-height:40px;
+}
+.text1{
+  padding: 5px 50px 0px 20px;;
+}
+.image-article2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:block;
+  width:300px;
+  height:200px;
+  position: relative;
+  box-shadow: 0px 0px 5px 1px rgba($gray-light,0.75);
+  margin-bottom: 20px;
+}
+.text2{
+  padding: 1px 0px 0px 45px;
+width: 300px;
+}
+
+.list-navigation ul li{
+    position:absolute;
+    left:10px;
+}
+
+.name{
+  background-color: $white;
+  color:$gray;
+}
+
+.name li a{
+  background-color: $white;
+  color:$gray;
 }

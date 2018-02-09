@@ -1,0 +1,32 @@
+
+.circle-dash1{
+	position: fixed;
+	left: -2%;
+	top: 75%;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background: rgba($brand-secundary,.8);
+	z-index:3;
+
+}
+.circle-dash2{
+	position: fixed;
+	left: 2%;
+	top: 65%;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	background: rgba($brand-third,.6);
+	z-index:25;
+}
+.circle-dash3{
+	position: fixed;
+	left: -5%;
+	top: 60%;
+	width: 175px;
+	height:175px;
+	border-radius: 50%;
+	background: rgba($brand-secundary,.4);
+	z-index:10;
+}

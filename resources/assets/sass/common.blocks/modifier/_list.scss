@@ -21,28 +21,10 @@
 		padding: 10px 0;
 		right: 5px!important;
 	}
-	.rombo {
-		display: none;
-		@media screen and (max-width: $screen-xs-min) {
-		    background: white;
-		    height: 15px;
-		    position: absolute;
-		    right: 10px;
-		    top: -6px;
-		    transform: rotate(45deg);
-		    width: 15px;
-		    border-left: 1px solid #ccc;
-			border-top: 1px solid #ccc;
-			display: block;
-		}
-    }
+	
 	li {
 		padding-left: 10px;
 		padding-right: 10px;
-		a {
-			color: rgba(0,0,0,0.8)!important;
-			font-size: $font-size;
-		}
 		@media screen and (max-width: $screen-xs-min) {
 			display: block;
 		}

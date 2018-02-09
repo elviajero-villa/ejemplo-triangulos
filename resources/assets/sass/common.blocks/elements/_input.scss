@@ -1,9 +1,23 @@
 .input-one {
+	box-sizing: border-box;
 	border: none;
 	border-bottom: solid 3px $gray-lighter;	
-	padding-left: 15px;
+	display: block;
+	width: 97%;
+	margin:8px 0px 8px 0px;
+	padding: 5px 20px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #ccc;
 }
-input[placeholder] {
-	color: #004ea9;
-	font-weight: 600;
+
+
+
+span.psw {
+    padding-top: 16px;
+}
+
+.form1{
+	padding:0px 0px 0px 10px;
+	width:400px;
 }
